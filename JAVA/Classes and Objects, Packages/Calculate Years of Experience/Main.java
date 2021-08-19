@@ -10,7 +10,7 @@ SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
 try 
 { sdf.setLenient(false); 
 Date d1 = sdf.parse(join); 
-Date d2 = new Date(); 
+Date d2 = new Date("15/12/2020"); 
 long diff = d2.getTime() - d1.getTime(); 
 long l1 = (24*60*60*1000); 
 long l = l1*365; 
